@@ -27,10 +27,10 @@ function App () {
       <div className="container">
         <Exponent count={count} decrement={decrement} increment={increment} exponent={exponent}/>
         <ExponentTwo count={count} setCount={setCount} decrement={decrement} increment={increment} />
-        {/*<ExponentThree count={count} setCount={setCount} decrement={decrement} increment={increment}/>
+       <ExponentThree count={count} setCount={setCount} decrement={decrement} increment={increment}/>
         <ExponentFour count={count} setCount={setCount} decrement={decrement} increment={increment}/>
         <ExponentFive count={count} setCount={setCount} decrement={decrement} increment={increment}/>
-  <ExponentSix count={count} setCount={setCount} decrement={decrement} increment={increment}/>*/}
+  <ExponentSix count={count} setCount={setCount} decrement={decrement} increment={increment}/>
       </div>
     </div>
   );
